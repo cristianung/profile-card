@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Profile card component</title>
 
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <div class="card">
+    <div class="card__pattern"></div>
 
-  80K
-  Followers
+    <div class="card__user">
+      <img src="img/image-victor.jpg" alt="Profile photo" class="card__user-photo">
+      <div class="card__user-info">
+        <p class="card__user-name">Victor Crest <span>26</span></p>
+        <p class="card__user-city">London</p>
+      </div>
+    </div>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
+    <ul class="card__stats">
+      <li class="card__stats-count">80K<span class="card__stats-feature">Followers</span></li>
+      <li class="card__stats-count">803K<span class="card__stats-feature">Likes</span></li>
+      <li class="card__stats-count">1.4K<span class="card__stats-feature">Photos</span></li>
+    </ul>
+  </div>
+  </div>
 </body>
+
 </html>

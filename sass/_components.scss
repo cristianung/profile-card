@@ -1,0 +1,79 @@
+/*
+    || CARD
+*/
+
+.card {
+    
+    background-color: #fff;
+    flex: 0 0 35rem;
+    height: 37.5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &__pattern {
+        height: 14rem;
+        background-image: url(../img/bg-pattern-card.svg);
+        background-size: cover;
+    }
+
+    &__user {
+        border-bottom: 1px solid #e7e7e7;
+        display: flex;
+        align-items: center;
+        min-height: 14.4rem;
+    }
+
+    &__user-photo {
+        border-radius: 50%;
+        border: .5rem solid #fff;
+        transform: translate(114%, -68%);;
+    }
+
+    &__user-info {
+        padding-top: 4.5rem;
+    }
+
+    &__user-name {
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+        
+        span {
+            font-weight: 400;
+            color: var(--color-dark-grayish-blue);
+            margin-left: .5rem;
+        }
+    }
+
+    &__user-city {
+        font-size: 1.4rem;
+        color: var(--color-dark-grayish-blue);
+    }
+
+    /* || Stats */
+
+    &__stats {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 3rem;
+        
+        &-count {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            font-weight: 700;
+        }
+
+        &-feature {
+            font-weight: 300;
+            font-size: 1rem;
+            letter-spacing: .2rem;
+            color: var(--color-dark-grayish-blue);
+            margin-top: .5rem;
+        }
+    }
+}

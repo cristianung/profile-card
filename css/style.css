@@ -1,0 +1,92 @@
+/*
+    || BASIC SETUP
+*/
+:root {
+  --color-dark-cyan: hsl(185, 75%, 39%);
+  --color-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --color-dark-grayish-blue: hsl(227, 10%, 46%);
+  --color-dark-gray: hsl(0, 0%, 59%); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  min-height: 100vh;
+  font-size: 1.8rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  color: var(--color-very-dark-desaturated-blue);
+  background-color: var(--color-dark-cyan);
+  background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
+  background-position: -17vw -48vh, 48vw 48vh;
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*
+    || CARD
+*/
+.card {
+  background-color: #fff;
+  flex: 0 0 35rem;
+  height: 37.5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* || Stats */ }
+  .card__pattern {
+    height: 14rem;
+    background-image: url(../img/bg-pattern-card.svg);
+    background-size: cover; }
+  .card__user {
+    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+    min-height: 14.4rem; }
+  .card__user-photo {
+    border-radius: 50%;
+    border: .5rem solid #fff;
+    transform: translate(114%, -68%); }
+  .card__user-info {
+    padding-top: 4.5rem; }
+  .card__user-name {
+    font-weight: 700;
+    margin-bottom: 1.2rem; }
+    .card__user-name span {
+      font-weight: 400;
+      color: var(--color-dark-grayish-blue);
+      margin-left: .5rem; }
+  .card__user-city {
+    font-size: 1.4rem;
+    color: var(--color-dark-grayish-blue); }
+  .card__stats {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 3rem; }
+    .card__stats-count {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      font-weight: 700; }
+    .card__stats-feature {
+      font-weight: 300;
+      font-size: 1rem;
+      letter-spacing: .2rem;
+      color: var(--color-dark-grayish-blue);
+      margin-top: .5rem; }
