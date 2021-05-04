@@ -25,15 +25,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 Desktop:
 
-![](/screenshot/desktop.png "Desktop")
+![](/screenshots/desktop.png "Desktop")
 
 Tablet:
 
-![](/screenshot/tablet.png "Tablet")
+![](/screenshots/tablet.png "Tablet")
 
 Mobile
 
-![](/screenshot/tab-port.png "Mobile")
+![](/screenshots/tab-port.png "Mobile")
 
 ### Links
 
