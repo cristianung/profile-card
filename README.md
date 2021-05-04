@@ -33,7 +33,7 @@ Tablet:
 
 Mobile
 
-![](/screenshots/tab-port.png "Mobile")
+![](/screenshots/mobile.png "Mobile")
 
 ### Links
 
