@@ -50,8 +50,7 @@ body {
   /* || Stats */ }
   .card__pattern {
     height: 14rem;
-    background-image: url(../img/bg-pattern-card.svg);
-    background-size: cover; }
+    background-image: url(../img/bg-pattern-card.svg); }
   .card__user {
     border-bottom: 1px solid #e7e7e7;
     display: flex;
